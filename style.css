@@ -1,0 +1,182 @@
+
+
+input{
+  border-radius:5px;
+  width:560px;
+  min-width:100px;
+  max-width:90vw;
+  height:8vw;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  font-size:5vw;
+  text-align:center;
+
+} 
+
+
+
+.section-one{
+  background-image: linear-gradient(180deg, #34495e, #95a5a6);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  max-width:100vw;
+}
+
+@media screen and (max-width:1600px) {
+  .rows{
+    flex-wrap:wrap;
+  }
+}
+
+.section-two{
+  background-color:#95a5a6;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  max-width:120vw;
+  
+}
+
+.section-three{
+  background-image: linear-gradient(180deg, #95a5a6,#34495e);
+  max-width:100vw;
+  height:30vw
+}
+.logo{
+  border:3px solid;
+  border-color:#34495e;
+  border-radius:200px;
+  height:300px;
+  width:auto;
+  margin-top:40px;
+}
+
+.heading{
+  font-family:Rampart One;
+  font-weight:900;
+  font-size:40px;
+  padding-top:7vw;
+  padding-bottom:7vw;
+   display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+    
+}
+.sub-heading{
+  font-family:monospace;
+  font-weight:100;
+  font-size:25px;
+  margin-bottom:4vw;
+   display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+   align-items:center;
+  justify-content:center;
+}
+
+.font-cell{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+#lobster{
+  font-family:lobster;
+}
+
+#grandHotel{
+font-family:Grand Hotel;
+}
+
+#yesteryear{
+  font-family:yesteryear;
+}
+
+#cookie{
+  font-family:cookie;
+}
+
+#mrsSheppards{
+  font-family:Mrs Sheppards;
+}
+
+#pacifico{
+  font-family:pacifico;
+  
+}
+
+#yellowTail{
+  font-family:Yellowtail;
+}
+
+#norican{
+  font-family:norican;
+}
+
+#molle{
+ font-family:Molle;
+}
+.rows{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+
+.etsybutton{
+  cursor:pointer;
+  min-width:10px;
+  width:30vw;
+  height:6.75vw;
+  font-family:Times New Roman;
+  font-size:4vw;
+  background-color:#d35400;
+  color:white;
+  color: #fff; */
+  border:none;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.etsybutton:hover {
+  box-shadow: 0 0 40px 10px #95a5a6 inset, 0 0 0 0 #3498db;
+  
+  }
+
+#etsybutton{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  margin-top:10vw;
+  min-width:100px;
+  height:40vw;
+  
+  
+}
+
+.etsytopbutton{ 
+  cursor:pointer;
+  font-family: Times new roman;
+  margin-top:1vw;
+  margin-bottom:2vw;
+  border-radius:5px;
+  min-width:130px;
+  width:15vw;
+  height:5vw;
+  font-size:3vw;
+  background-color:#d35400;
+  color:white;
+  color: #fff; */
+  border:none;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.etsytopbutton:hover {
+  box-shadow: 0 0 40px 10px #95a5a6 inset, 0 0 0 0 #3498db;
+  
+  }
+
+
+</body>
