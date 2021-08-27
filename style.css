@@ -111,7 +111,7 @@ font-family:Grand Hotel;
 }
 
 #leckerliOne{
- font-family:Leckerli One;
+ font-family: 'Leckerli One', cursive;;
 }
 .rows{
   display:flex;
