@@ -8,11 +8,7 @@ function annotate(){
   document.getElementById("pacifico").value= typed;
   document.getElementById("yellowTail").value= typed;
   document.getElementById("norican").value= typed;
-  document.getElementById("molle").value= typed;
   document.getElementById("leckerliOne").value= typed;
-  
-  
-  
   
   
 }
