@@ -24,7 +24,7 @@ input{
   max-width:100vw;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:800px) {
   .rows{
     flex-wrap:wrap;
   }
