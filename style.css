@@ -4,7 +4,7 @@ input{
   border-radius:5px;
   width:560px;
   min-width:100px;
-  max-width:80vw;
+  max-width:40vw;
   height:8vw;
   display:flex;
   flex-direction:column;
